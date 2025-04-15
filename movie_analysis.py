@@ -1,5 +1,6 @@
 # Đinh Ngọc Khuê - 2321050065
-
+# Phan Văn Huy - 2321050069
+# https://meimeilins.streamlit.app/
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -11,6 +12,7 @@ st.set_page_config(page_title="Phân tích dữ liệu phim", layout="wide")
 # Tiêu đề
 st.title("Phân tích dữ liệu phim")
 st.markdown("### Đinh Ngọc Khuê - 2321050065")
+st.markdown("### Phan Văn Huy - 2321050069")
 
 # Thiết lập sidebar
 st.sidebar.title("Tùy chọn Phân tích")
@@ -196,4 +198,4 @@ elif analysis_type == "Thống kê":
 
 # Thêm thông tin tác giả vào sidebar
 st.sidebar.markdown("---")
-st.sidebar.info("Thành Viên: \nĐinh Ngọc Khuê - 2321050065 \nPhan Văn Huy -")
+st.sidebar.info(f"Thành Viên:\n- Đinh Ngọc Khuê - 2321050065\n- Phan Văn Huy - 2321050069")
